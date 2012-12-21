@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A4BDF7D167BA30D001E01CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4BDF7C167BA30D001E01CF /* UIKit.framework */; };
+		9A4BDF7F167BA30D001E01CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4BDF7E167BA30D001E01CF /* Foundation.framework */; };
+		9A4BDF81167BA30D001E01CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4BDF80167BA30D001E01CF /* CoreGraphics.framework */; };
+		9A4BDF87167BA30D001E01CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A4BDF85167BA30D001E01CF /* InfoPlist.strings */; };
+		9A4BDF89167BA30D001E01CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4BDF88167BA30D001E01CF /* main.m */; };
+		9A4BDF8D167BA30D001E01CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4BDF8C167BA30D001E01CF /* AppDelegate.m */; };
+		9A4BDF90167BA30D001E01CF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4BDF8E167BA30D001E01CF /* MainStoryboard.storyboard */; };
+		9A4BDFA4167BAFB6001E01CF /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9A4BDF9D167BAFB6001E01CF /* 1.jpeg */; };
+		9A4BDFA6167BAFB6001E01CF /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9A4BDF9F167BAFB6001E01CF /* 3.jpeg */; };
+		9A4BDFA7167BAFB6001E01CF /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9A4BDFA0167BAFB6001E01CF /* 4.jpeg */; };
+		9A4BDFA8167BAFB6001E01CF /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9A4BDFA1167BAFB6001E01CF /* 5.jpeg */; };
+		9A4BDFA9167BAFB6001E01CF /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9A4BDFA2167BAFB6001E01CF /* 6.jpeg */; };
+		9A4BDFAA167BAFB6001E01CF /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9A4BDFA3167BAFB6001E01CF /* 2.jpeg */; };
+		9A4BDFAD167BC67A001E01CF /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4BDFAC167BC67A001E01CF /* RootVC.m */; };
+		9A560C161684C29C005926DE /* InicialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A560C151684C29C005926DE /* InicialVC.m */; };
+		9A560C1A1684D742005926DE /* claseSB.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A560C191684D742005926DE /* claseSB.m */; };
+		9A83DC2B1680EA7200551BE5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A83DC2A1680EA7200551BE5 /* libsqlite3.dylib */; };
+		9A83DC3E168120EB00551BE5 /* Configuracion.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 9A83DC3D168120EB00551BE5 /* Configuracion.sqlite */; };
+		9AA745CD168274A700D49B78 /* StorSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA745CC168274A700D49B78 /* StorSegue.m */; };
+		9AA745D4168280B000D49B78 /* aViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA745D3168280B000D49B78 /* aViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A4BDF78167BA30D001E01CF /* FacturaDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacturaDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4BDF7C167BA30D001E01CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A4BDF7E167BA30D001E01CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A4BDF80167BA30D001E01CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9A4BDF84167BA30D001E01CF /* FacturaDB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FacturaDB-Info.plist"; sourceTree = "<group>"; };
+		9A4BDF86167BA30D001E01CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A4BDF88167BA30D001E01CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A4BDF8A167BA30D001E01CF /* FacturaDB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacturaDB-Prefix.pch"; sourceTree = "<group>"; };
+		9A4BDF8B167BA30D001E01CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A4BDF8C167BA30D001E01CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A4BDF8F167BA30D001E01CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9A4BDF9D167BAFB6001E01CF /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = ../../../../../../Downloads/1.jpeg; sourceTree = "<group>"; };
+		9A4BDF9F167BAFB6001E01CF /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpeg; path = ../../../../../../Downloads/3.jpeg; sourceTree = "<group>"; };
+		9A4BDFA0167BAFB6001E01CF /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpeg; path = ../../../../../../Downloads/4.jpeg; sourceTree = "<group>"; };
+		9A4BDFA1167BAFB6001E01CF /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpeg; path = ../../../../../../Downloads/5.jpeg; sourceTree = "<group>"; };
+		9A4BDFA2167BAFB6001E01CF /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpeg; path = ../../../../../../Downloads/6.jpeg; sourceTree = "<group>"; };
+		9A4BDFA3167BAFB6001E01CF /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpeg; path = ../../../../../../Downloads/2.jpeg; sourceTree = "<group>"; };
+		9A4BDFAB167BC67A001E01CF /* RootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
+		9A4BDFAC167BC67A001E01CF /* RootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
+		9A560C141684C29C005926DE /* InicialVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InicialVC.h; sourceTree = "<group>"; };
+		9A560C151684C29C005926DE /* InicialVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InicialVC.m; sourceTree = "<group>"; };
+		9A560C181684D742005926DE /* claseSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = claseSB.h; sourceTree = "<group>"; };
+		9A560C191684D742005926DE /* claseSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = claseSB.m; sourceTree = "<group>"; };
+		9A83DC2A1680EA7200551BE5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		9A83DC3D168120EB00551BE5 /* Configuracion.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Configuracion.sqlite; sourceTree = "<group>"; };
+		9AA745CB168274A700D49B78 /* StorSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorSegue.h; sourceTree = "<group>"; };
+		9AA745CC168274A700D49B78 /* StorSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorSegue.m; sourceTree = "<group>"; };
+		9AA745D2168280B000D49B78 /* aViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aViewController.h; sourceTree = "<group>"; };
+		9AA745D3168280B000D49B78 /* aViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A4BDF75167BA30D001E01CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A83DC2B1680EA7200551BE5 /* libsqlite3.dylib in Frameworks */,
+				9A4BDF7D167BA30D001E01CF /* UIKit.framework in Frameworks */,
+				9A4BDF7F167BA30D001E01CF /* Foundation.framework in Frameworks */,
+				9A4BDF81167BA30D001E01CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A4BDF6D167BA30D001E01CF = {
+			isa = PBXGroup;
+			children = (
+				9A83DC2A1680EA7200551BE5 /* libsqlite3.dylib */,
+				9A4BDF82167BA30D001E01CF /* FacturaDB */,
+				9A4BDF7B167BA30D001E01CF /* Frameworks */,
+				9A4BDF79167BA30D001E01CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A4BDF79167BA30D001E01CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A4BDF78167BA30D001E01CF /* FacturaDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A4BDF7B167BA30D001E01CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A4BDF7C167BA30D001E01CF /* UIKit.framework */,
+				9A4BDF7E167BA30D001E01CF /* Foundation.framework */,
+				9A4BDF80167BA30D001E01CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A4BDF82167BA30D001E01CF /* FacturaDB */ = {
+			isa = PBXGroup;
+			children = (
+				9A4BDF9C167BAF7E001E01CF /* imagenes */,
+				9A4BDF8B167BA30D001E01CF /* AppDelegate.h */,
+				9A4BDF8C167BA30D001E01CF /* AppDelegate.m */,
+				9A4BDF8E167BA30D001E01CF /* MainStoryboard.storyboard */,
+				9A4BDF83167BA30D001E01CF /* Supporting Files */,
+				9A4BDFAB167BC67A001E01CF /* RootVC.h */,
+				9A4BDFAC167BC67A001E01CF /* RootVC.m */,
+				9AA745D3168280B000D49B78 /* aViewController.m */,
+				9AA745CB168274A700D49B78 /* StorSegue.h */,
+				9AA745CC168274A700D49B78 /* StorSegue.m */,
+				9AA745D2168280B000D49B78 /* aViewController.h */,
+				9A560C141684C29C005926DE /* InicialVC.h */,
+				9A560C151684C29C005926DE /* InicialVC.m */,
+				9A560C181684D742005926DE /* claseSB.h */,
+				9A560C191684D742005926DE /* claseSB.m */,
+			);
+			path = FacturaDB;
+			sourceTree = "<group>";
+		};
+		9A4BDF83167BA30D001E01CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A83DC3D168120EB00551BE5 /* Configuracion.sqlite */,
+				9A4BDF84167BA30D001E01CF /* FacturaDB-Info.plist */,
+				9A4BDF85167BA30D001E01CF /* InfoPlist.strings */,
+				9A4BDF88167BA30D001E01CF /* main.m */,
+				9A4BDF8A167BA30D001E01CF /* FacturaDB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A4BDF9C167BAF7E001E01CF /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				9A4BDF9D167BAFB6001E01CF /* 1.jpeg */,
+				9A4BDF9F167BAFB6001E01CF /* 3.jpeg */,
+				9A4BDFA0167BAFB6001E01CF /* 4.jpeg */,
+				9A4BDFA1167BAFB6001E01CF /* 5.jpeg */,
+				9A4BDFA2167BAFB6001E01CF /* 6.jpeg */,
+				9A4BDFA3167BAFB6001E01CF /* 2.jpeg */,
+			);
+			path = imagenes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A4BDF77167BA30D001E01CF /* FacturaDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A4BDF96167BA30D001E01CF /* Build configuration list for PBXNativeTarget "FacturaDB" */;
+			buildPhases = (
+				9A4BDF74167BA30D001E01CF /* Sources */,
+				9A4BDF75167BA30D001E01CF /* Frameworks */,
+				9A4BDF76167BA30D001E01CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacturaDB;
+			productName = FacturaDB;
+			productReference = 9A4BDF78167BA30D001E01CF /* FacturaDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A4BDF6F167BA30D001E01CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Softmark;
+			};
+			buildConfigurationList = 9A4BDF72167BA30D001E01CF /* Build configuration list for PBXProject "FacturaDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A4BDF6D167BA30D001E01CF;
+			productRefGroup = 9A4BDF79167BA30D001E01CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A4BDF77167BA30D001E01CF /* FacturaDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A4BDF76167BA30D001E01CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4BDF87167BA30D001E01CF /* InfoPlist.strings in Resources */,
+				9A4BDF90167BA30D001E01CF /* MainStoryboard.storyboard in Resources */,
+				9A4BDFA4167BAFB6001E01CF /* 1.jpeg in Resources */,
+				9A4BDFA6167BAFB6001E01CF /* 3.jpeg in Resources */,
+				9A4BDFA7167BAFB6001E01CF /* 4.jpeg in Resources */,
+				9A4BDFA8167BAFB6001E01CF /* 5.jpeg in Resources */,
+				9A4BDFA9167BAFB6001E01CF /* 6.jpeg in Resources */,
+				9A4BDFAA167BAFB6001E01CF /* 2.jpeg in Resources */,
+				9A83DC3E168120EB00551BE5 /* Configuracion.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A4BDF74167BA30D001E01CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4BDF89167BA30D001E01CF /* main.m in Sources */,
+				9A4BDF8D167BA30D001E01CF /* AppDelegate.m in Sources */,
+				9A4BDFAD167BC67A001E01CF /* RootVC.m in Sources */,
+				9AA745CD168274A700D49B78 /* StorSegue.m in Sources */,
+				9AA745D4168280B000D49B78 /* aViewController.m in Sources */,
+				9A560C161684C29C005926DE /* InicialVC.m in Sources */,
+				9A560C1A1684D742005926DE /* claseSB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A4BDF85167BA30D001E01CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A4BDF86167BA30D001E01CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9A4BDF8E167BA30D001E01CF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A4BDF8F167BA30D001E01CF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A4BDF94167BA30D001E01CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A4BDF95167BA30D001E01CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A4BDF97167BA30D001E01CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacturaDB/FacturaDB-Prefix.pch";
+				INFOPLIST_FILE = "FacturaDB/FacturaDB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9A4BDF98167BA30D001E01CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FacturaDB/FacturaDB-Prefix.pch";
+				INFOPLIST_FILE = "FacturaDB/FacturaDB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A4BDF72167BA30D001E01CF /* Build configuration list for PBXProject "FacturaDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4BDF94167BA30D001E01CF /* Debug */,
+				9A4BDF95167BA30D001E01CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A4BDF96167BA30D001E01CF /* Build configuration list for PBXNativeTarget "FacturaDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4BDF97167BA30D001E01CF /* Debug */,
+				9A4BDF98167BA30D001E01CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A4BDF6F167BA30D001E01CF /* Project object */;
+}

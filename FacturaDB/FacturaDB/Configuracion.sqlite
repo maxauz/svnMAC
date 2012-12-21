@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS "parametro";
+CREATE TABLE "parametro" ("imagen" text);
+INSERT INTO "parametro" VALUES('ccccc.jpg');
+INSERT INTO "parametro" VALUES('ccccc.jpg');
+INSERT INTO "parametro" VALUES('ccccc.jpg');
+INSERT INTO "parametro" VALUES('ccccc.jpg');
